@@ -3,26 +3,23 @@
 
 При написании данной программы были соблюдены [Общие требования](https://drive.google.com/file/d/1pG7LePLCTgWDAHcDCO2xN_1V6AvABwZw/view)
 
-![MyCalculator](https://user-images.githubusercontent.com/82901435/198687513-578f1132-ae1d-4129-89cd-448605d4f644.jpg)
+![My Calculator](https://user-images.githubusercontent.com/104032847/198893778-354023a5-331f-49c2-a358-f4d4a88a2fc5.png)
 
 
 # Описание классов и методов
 
-- **Util**
+- **Class1**
     - *Calc* - Вызывает методы для арифметических действий и обрабатывает исключения;
     - *Multiply* - Метод умножения;
     - *Divide* - Метод деления;
     - *Sum* - Метод сложения;
     - *Minus* - Метод вычитания;
-    - *GetValues* - Производит поиск в строке и разделяет ее на арифметический знак, первый и второй операнды;
+   
 - **Form1**
     - *buttonZero_Click - buttonNine_Click* - Обработка нажатий на цифры;
-    - *buttonClear_Click* - Очистка поля ввода;
-    - *buttonPlusMinus_Click* - Делает число отрицательным\положительным;
-    - *buttonSum_Click, buttonMinus_Click, buttonMultiply_Click, buttonDivide_Click* - Обработка нажатий на кнопки с арифметическими действиями;
-    - *buttonEquals_Click* - Получения результат введенного выражения;
-    - *checkExpression* - Выводит результат, если введены больше 2-ух операндов;
-    - *checkNum* - Проверяет, является ли число отрицательным и если нужно устанавливает знак "-";
+    - *button16_Click* - Очистка поля ввода;
+    - *button10_Click, button11_Click, button12_Click, button13_Click* - Обработка нажатий на кнопки с арифметическими действиями;
+    - *button17_Click* - Получения результат введенного выражения;
     - *setNum* - Проверяет кол-во введенных символов и устанавливает символ если присутствует место;
     - *setSign* - Устанавливает арифметический знак;
 
@@ -35,13 +32,13 @@
 
 2. Клонируйте проек:
 ```git
-git clone https://github.com/fant1kek/Calculator.git
+git clone https://github.com/Massikz/MyCalculator.git
 ```
 3. Откройте **Calculator.sln** и запустите проект;
 
 # Илюстрация работы приложения
 
-![illustration](https://user-images.githubusercontent.com/82901435/198687661-0a905402-acac-4c1c-8ddd-06ca24d8e0a2.gif)
+![MyCalculator illustration](https://user-images.githubusercontent.com/104032847/198894402-e591dafa-d930-4105-b654-6e18bbbdbb9a.gif)
 
 # Инструкция по работе с приложением
 
@@ -51,14 +48,13 @@ git clone https://github.com/fant1kek/Calculator.git
 3. Выбрать второй операнд;
 4. Нажать "**=**";
 
-Для воода отрицательного числа - нажать "**+/-**"
 Для очистки поля ввода - нажать "**C**";
 
 # Тестирование методов
 
 Все методы были протестированы успешно
 
-![tests](https://user-images.githubusercontent.com/82901435/198687748-5133217e-977f-4fc4-9a36-01b88d6784f2.jpg)
+![Test](https://user-images.githubusercontent.com/104032847/198893821-6047b73c-482a-432d-8bf8-26ca221baed1.png)
 
 
-Для написания юнит-тестов был использован бесплатный инструмент модульного тестирования xUnit
+Для написания юнит-тестов был использован бесплатный инструмент модульного тестирования MSTest
